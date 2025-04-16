@@ -1,0 +1,23 @@
+.infobox{
+    text-align: center;
+    font-size: 10px;
+    border: 3px solid rgba(128, 128, 128, 0.296);
+    
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#cardcontent{
+    color: black;
+    background-color: whitesmoke;
+    transition: 1s ease;
+    
+}
+
+#cardcontent:hover{
+    background-color: silver;
+    color: sienna;
+}
